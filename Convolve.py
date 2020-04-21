@@ -54,8 +54,6 @@ def linearConvolve3(x:np.array,y:np.array,points_per_part:int):
 
 
 
-    L=len(x)+len(y)-1
-    circularConvolve()
 
 if __name__=="__main__":
     X = np.array([1, 2, 3, 4, 5,6,7,8,9,1,2,3,4,5,6,76])
